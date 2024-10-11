@@ -31,7 +31,15 @@ const biciclette = [
     },
     {
         nome: 'Olmo',
-        peso: '120'
+        peso: '99'
     }
 ]
 console.log(biciclette);
+
+let numberMin;
+for (let i = 0; i < biciclette.length; i++) {
+    const element = biciclette[i];
+    const key = 'peso'
+    numberMin = Math.min(element[key]);
+}
+console.log(numberMin);
