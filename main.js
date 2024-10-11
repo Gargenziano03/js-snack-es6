@@ -19,19 +19,19 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 const biciclette = [
     {
         nome: 'Bmx',
-        peso: '50'
+        peso: 50
     },
     {
         nome: 'Bianchi',
-        peso: '69'
+        peso: 69
     },
     {
         nome: 'Atala',
-        peso: '1'
+        peso: 89
     },
     {
         nome: 'Olmo',
-        peso: '99'
+        peso: 100
     }
 ]
 console.log(biciclette);
