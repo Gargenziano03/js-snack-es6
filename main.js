@@ -13,3 +13,25 @@ Snack 3 (Bonus)
 Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
 */
+
+
+//Snack 1
+const biciclette = [
+    {
+        nome: 'Bmx',
+        peso: '50'
+    },
+    {
+        nome: 'Bianchi',
+        peso: '69'
+    },
+    {
+        nome: 'Atala',
+        peso: '83'
+    },
+    {
+        nome: 'Olmo',
+        peso: '120'
+    }
+]
+console.log(biciclette);
