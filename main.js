@@ -36,10 +36,13 @@ const biciclette = [
 ]
 console.log(biciclette);
 
-let numberMin;
+let numberMin = biciclette[0];
 for (let i = 0; i < biciclette.length; i++) {
     const element = biciclette[i];
     const key = 'peso'
-    numberMin = Math.min(element[key]);
+    if( element[key] < numberMin){
+        numberMin = element[key]
+    }
+        
 }
 console.log(numberMin);
