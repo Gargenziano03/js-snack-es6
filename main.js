@@ -27,7 +27,7 @@ const biciclette = [
     },
     {
         nome: 'Atala',
-        peso: '83'
+        peso: '1'
     },
     {
         nome: 'Olmo',
