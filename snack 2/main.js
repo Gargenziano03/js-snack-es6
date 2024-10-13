@@ -18,14 +18,20 @@ const squadre = [
         nome: 'Manchester city',
         puntiFatti: 0,
         falliSubiti: 0
-    },{
+    }, {
         nome: 'Rwal Madrid',
         puntiFatti: 0,
         falliSubiti: 0
-    },{
+    }, {
         nome: 'Bayern Monaco',
         puntiFatti: 0,
         falliSubiti: 0
     },
 ]
 console.log(squadre);
+//Generare numeri random al posto degli 0 nelle proprietà “punti fatti" e “falli subiti”.
+for (let i = 0; i < squadre.length; i++) {
+    const element = squadre[i];
+    element.falliSubiti = Math.floor(Math.random() * 100);
+    element.puntiFatti = Math.floor(Math.random() * 100);
+}
