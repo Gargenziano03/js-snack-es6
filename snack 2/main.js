@@ -35,3 +35,14 @@ for (let i = 0; i < squadre.length; i++) {
     element.falliSubiti = Math.floor(Math.random() * 100);
     element.puntiFatti = Math.floor(Math.random() * 100);
 }
+//creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e
+// stampiamo tutto in console.
+const contoFalli = [];
+for (let i = 0; i < squadre.length; i++) {
+    contoFalli.push({
+        nome: squadre[i].nome,
+        falliSubiti: squadre[i].falliSubiti
+    })
+}
+console.log(contoFalli);
+
